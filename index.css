@@ -10,7 +10,7 @@
 .comp1{
   border-radius :10px 10px 10px 10px;
   width: 300px;
-  height: 70px;
+  height: 50px;
   
 }
 .comp1:hover{
@@ -24,13 +24,15 @@
   margin-right: 180px;
 }
 .img1{
-  width:90px;
-  height:70px;
+  width:60px;
+  height:50px;
   float: left;
+  border-radius: 10px;
 }
 .title1{
-  width:205px;
-  height:70px;
+  width:235px;
+  height:50px;
+  font-size: 20px;
   float:right;
 }
 
