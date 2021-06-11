@@ -1,4 +1,5 @@
 
+ 
  var element= document.getElementById("mi");
  var base= document.getElementById("base");
  var id1= document.getElementById("ig1");
@@ -29,11 +30,23 @@
    }
    return ans;
 };
+
 t11.innerHTML= shortenTitle(title[0]);
 t22.innerHTML= shortenTitle(title[1]);
 t33.innerHTML= shortenTitle(title[2]);
 t44.innerHTML= shortenTitle(title[3]);
 t55.innerHTML= shortenTitle(title[4]);
+
+ids[curr].style.backgroundColor="white";
+            curr++;
+            curr--;
+            element.src=arr[curr];
+            base.innerHTML=title[curr];
+            ids[curr].style.backgroundColor="rgb(35, 135, 216)";
+           prev=curr;
+
+
+
 
  id1.addEventListener("click",()=>{
     ids[prev].style.backgroundColor="white";
